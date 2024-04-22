@@ -159,7 +159,7 @@ footer li:hover{
 aside{
      width: 40%;
     max-width: 610px;
-    height: auto;
+    height:100%;
     float: right;
     margin-top: 50px;
    
@@ -167,6 +167,7 @@ aside{
 aside p{
     margin-left: 13px;
     font-size: 25px;
+    color: rgb(106, 103, 103);
 }
 aside .form{
     background-color: black;
@@ -201,6 +202,36 @@ aside .form{
   
 }
 
-#p{
-    background-color: yellow;
+ .add p{
+    background-color: rgb(213, 213, 9);
+    color: black;
+    font-weight: 900;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.donate {
+    margin-top: 20px;
+
+}
+.donate h1{
+    font-weight: 600;
+
+}
+.donate p{
+    color: rgb(106, 103, 103);
+   
+}
+.donate div p{
+    background-color: rgb(72, 72, 227);
+    color: white;
+    font-weight: 900;
+    width: 99px;
+    height: 31px;
+    padding: 19px 37px;
+    position: relative;
+    top: 59px;
+    left: 384px
+    
+
 }
