@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(20, 9, 30);
+ 
+}
+.items{
+    display: flex;
+    /* justify-content: center;  */
+    padding: 5px 0;
+}
+nav h1{
+margin-right: 612px; 
+    color: white;
+   
+}
+ nav p{
+    color: white;
+    background-color:#3A3C52;
+   margin-right: 290px;
+   margin-left: 5px;
+    width: 30%;
+    padding-bottom: 5px;
+    border: none;
+ }
+
+ nav img{
+   background-color: white;
+     width: 20px;  
+     height: 20px;
+     border: 0px solid white; 
+  margin-right: 10px;
+  padding: 2px;
+ }
+ nav a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white; 
+    height: 18px;
+    margin-right: 10px;
+    padding: 2px ;
+   
+ }
+ main h1{
+    font-size: 42px;
+ }
+ main h1,h2{
+    margin: 33px 385px;  
+   
+ }
+ main button{
+    width: 510px;
+    height: 55px;
+    margin-left: 33%;
+    color: black;
+    background-color: #E4B126;
+    border:2px solid #a4790c;
+    font-size: 29px;
+   
+ }
+ main button:hover{
+    background-color: #F7E546;
+ }
+ main #img{
+   margin: 50px 380px;
+   width: 729px;
+   margin-bottom: 8px;
+   
+ }
+ main p{
+   text-align: center;
+   font-weight: 400;
+   font-size: larger;
+   color: black;
+ }
+  .companies2 {
+   background-color:#3A3C52;
+  
+   height: 250px;
+   margin-top: 25px;
+ }
+ .companies2 h1{
+   color:rgb(188, 180, 180);
+   text-align: center;
+   padding-top: 58px;
+ }
+ 
+.alumni h1 {
+    margin: 56px 283px;
+    font-size: 42px;
+ }
+
+.card1 {
+     /* border: 2px solid rgb(223, 220, 220);  */
+   box-shadow: 1px 2px 4px 2px rgb(84, 82, 82);
+    width: 66vw;
+    height: 42vh;
+    margin: -12px 232px;
+  display:flex;
+  
+ }
+ .card1 img{
+   object-fit: cover;
+   width:42vh ;
+ }
+ .card1 p{
+  
+ }
+ .card2 {
+   /* border: 2px solid rgb(223, 220, 220);  */
+ box-shadow: 1px 2px 4px 2px rgb(84, 82, 82);
+  width: 66vw;
+  height: 42vh;
+  margin: -12px 232px;
+display:flex;
+margin-top: 74px;
+
+}
+.card2 img{
+ object-fit: cover;
+ width:42vh ;
+}
+
+.card3 {
+   /* border: 2px solid rgb(223, 220, 220);  */
+ box-shadow: 1px 2px 4px 2px rgb(84, 82, 82);
+  width: 66vw;
+  height: 42vh;
+  margin: -12px 232px;
+display:flex;
+margin-top: 74px;
+margin-bottom: 70px;
+
+}
+.card2 img{
+ object-fit: cover;
+ width:42vh ;
+}
+.certificate h1{
+   
+   margin-left: 324px;
+   margin-top: 115px;
+}
+.certificate  p{
+   background-color:#D8D7D3;
+   border: 2px solid black;
+  
+   margin-top: 13px;
+    width: 143vh;
+    height: 50px;
+    margin-left: 21%;
+    padding-top: 30px;
+    text-align: start;
+    
+}
+.certificate p:hover{
+background-color: #252537;
+color: white;
+}
+.certificate button{
+   margin-top: 45px;
+}
+footer h1{
+   margin: 56px 283px;
+   font-size: 42px;
+}
+footer h2,p{
+   margin: 56px 283px;
+ 
+}
+footer button{
+   width: 510px;
+   height: 55px;
+   margin-left: 33%;
+   color: black;
+   background-color: #E4B126;
+   border:2px solid #a4790c;
+   font-size: 29px;
+}
+footer button:hover{
+   background-color: #F7E546;
+}

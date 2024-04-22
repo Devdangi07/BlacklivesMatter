@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            background-color: blue;
+            width: 100vw;
+            height: 80vh;
+        }
+        .ball{
+          background-color: black;
+          width: 80px;
+          height: 80px;
+          border-radius: 70px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+
+          animation: ballx 3s  linear infinite,
+          bally 1s  ease-out infinite alternate;
+         
+
+        }
+        @keyframes ballx {
+            from{
+               left: 0;
+            }
+            to{
+             left: 100%;
+            }
+        }
+        @keyframes bally {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

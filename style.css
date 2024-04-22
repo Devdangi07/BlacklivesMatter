@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(128, 0, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+div {
+  background-color: white;
+  width: 250px;
+  height: 350px;
+
+}
+p {
+  color: blueviolet;
+}
+
+h1{
+  text-align: center;
+}
+
+* {
+  padding-top: 15px;
+}

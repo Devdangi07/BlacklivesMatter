@@ -1,0 +1,125 @@
+.menu-btn img{
+    width: 20px;
+}
+.menu-btn{
+    cursor: pointer;
+    position: relative;
+    right: 15px;
+}
+.main aside{ 
+    width: 400px;
+    height: auto;
+    overflow-y: scroll;
+}
+
+ .sidebar{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+   
+}
+.sidebar ul li a{
+    color:black;
+    text-decoration: none;
+   
+}
+.sidebar ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}   
+ol li {
+    display: flex;
+    display: inline;
+  
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+ol li input {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 18%;
+    color: white;
+}
+.mic img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+
+}
+
+.create img {
+    width: 30px;
+    height: 30px;
+    margin-left: 22%;
+}
+
+.bell img {
+    width: 30px;
+    height: 30px;
+    margin-left: 9px;
+
+}
+.account img{
+    width: 30px;
+    height: 30px;
+    margin-left: 9px;
+
+}
+.sec2 ol li {
+     position: relative;
+    left: 12%;
+    border: 2px solid black;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 2%;
+    background-color: rgb(238, 235, 235);
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.sec2 ol li a{
+    text-decoration: none;
+}
+
+
+main .contain {
+    /* border: 2px solid black; */
+    margin-top: 38px;
+    width: 81%;
+    height: 600px;
+    position: relative;
+    left: 16%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 16px;
+}
+
+.box {
+    border: 2px solid black;
+    border: none;
+}
+
+.box img {
+    width: 400px;
+    border-radius: 13px;
+    /* object-fit: cover; */
+}
+
+.box p img {
+    border-radius: 70px;
+    border: 2px solid rgb(211, 208, 208);
+    width: 30px;
+}
+
+p {
+    font-weight: 900;
+    font-size: large;
+}

@@ -1,0 +1,111 @@
+
+ol li{
+    display: flex;
+   display: inline;
+   padding: 20px;
+}
+.content{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+ .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 30px;
+    margin: 70px;
+ 
+}
+.first span{
+    
+   
+}
+.first p{
+    font-size: 23px;
+    width: 55vw;
+    text-align: center;
+}
+ button{
+      padding: 13px 20px;
+      border-radius: 4px;
+      background-color: #00b6d1;
+      color: white;
+      font-size: normal; 
+      border: none;
+     font-weight: 700;
+}
+.second{
+   margin-right: 23%;
+    margin-bottom: -60px; 
+}
+ .download span  img{
+    width:50px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.large{
+    font-size: 25px;
+}
+.small{
+    font-size: small;
+}
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.language{
+      border: 2px solid white;
+      height: 80vh;
+      width: 800px;
+      margin-top: 50px;
+      display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+     gap: 15px;
+}
+.lang{
+    border: 2px solid;
+    border: none;
+   background-color:#f9f9f9;   
+}
+.lang div{
+margin-left: 40%;
+margin-top: 15px;
+font-weight: bold;
+font-size: large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.lang a{
+margin-left: 8px;
+text-decoration: none;
+background-color: rgb(51, 186, 186);
+color: white;
+padding: 6px 2px;
+border-radius: 4px;
+}
+div .bit{
+background-color: rgb(26, 201, 26);
+}
+.lang p{
+margin-left: 40%;
+margin-bottom: 25px;
+}
+.lang6 div{
+margin-left: 20%;
+}
+.lang6 p{
+margin-left: 20%;
+}
+@media  screen and (max-width:1300px) {
+    
+}
