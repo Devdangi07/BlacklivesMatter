@@ -202,7 +202,27 @@ aside .form{
 }
 
 
-.donate div p{
+.add p{
+    background-color: rgb(213, 213, 9);
+    color: black;
+    font-weight: 900;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.donate {
+    margin-top: 20px;
+
+}
+.donate h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.donate p{
+    color: rgb(106, 103, 103);
+   
+}
+.donate  #Donate{
     background-color: rgb(72, 72, 227);
     color: white;
     font-weight: 900;
@@ -211,7 +231,81 @@ aside .form{
     padding: 19px 37px;
     position: relative;
     top: 59px;
-    left: 384px
+    left: 384px;
+    cursor: pointer;
     
+}
+.donate  #Donate:hover{
+    background-color: rgb(6, 6, 154);
+}
+.donate2{
+    margin-top: 20px;
+}
+.donate2 h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.donate2 p{
+    color: rgb(106, 103, 103);
+   
+}
+.donate2 #help-us{
+    background-color:rgb(231, 231, 24);
+    color: black;
+    font-weight: 900;
+    width: 106px;
+    height: 32px;
+    padding: 21px 32px;
+    position: relative;
+    top: 59px;
+    left: 384px;
+    cursor: pointer;
+}
+.donate2 #help-us:hover{
+     background-color:rgb(138, 138, 10) ;
+}
+.blm{
+    margin-top: 97px;
+}
+.blm h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.blm li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 13px;
+    font-size: 5rem;
+}
 
+.shop{
+    margin-top: 40px;
+  
+}
+.shop h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.shop-item{
+    display: flex;
+}
+
+.shop-item img{
+   width: 200px;
+   
+}
+#shop-all{
+    background-color:rgb(231, 231, 24);
+    color: black;
+    font-weight: 900;
+    width: 127px;
+    height: 32px;
+    padding: 21px 32px;
+    position: relative;
+   
+    left: 364px;
+    cursor: pointer;
+}
+#shop-all:hover{
+    background-color:rgb(138, 138, 10)  ;
 }
