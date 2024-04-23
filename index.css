@@ -202,3 +202,16 @@ aside .form{
 }
 
 
+.donate div p{
+    background-color: rgb(72, 72, 227);
+    color: white;
+    font-weight: 900;
+    width: 99px;
+    height: 31px;
+    padding: 19px 37px;
+    position: relative;
+    top: 59px;
+    left: 384px
+    
+
+}
