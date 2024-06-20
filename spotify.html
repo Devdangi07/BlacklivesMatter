@@ -6,15 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify</title>
   <link rel="stylesheet" href="spotify.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="spotify.js"></script>
 </head>
 
 <body>
   <header>
-    
+
     <div class="navbar">
       <ol>
         <li id="sign"><a href="">Signup</a></li>
-        <li id="log"><a href="">Log-in</a></li>
+        <li id="log"><a href="loginspotify.html">Log-in</a></li>
       </ol>
     </div>
     <aside>
@@ -29,11 +31,11 @@
         </div>
         <br>
         <div>
-         <ul>
-           
-              <li><img width="30px" src="icons8-video-playlist-50.png" alt=""><a href="">Your Library</a>
-                <!-- <img width="20px"src="icons8-plus-50.png" alt=""> -->
-              </li>  
+          <ul>
+
+            <li><img width="30px" src="icons8-video-playlist-50.png" alt=""><a href="">Your Library</a>
+              <!-- <img width="20px"src="icons8-plus-50.png" alt=""> -->
+            </li>
 
           </ul>
           <div class="box">
@@ -62,40 +64,55 @@
             <a href="">Cookies</a>
           </div>
           <p id="lang"><img width="20px" src="icons8-globe-50.png" alt="">English</p>
-         </div>
+        </div>
       </div>
 
     </aside>
   </header>
   <div class="artist">
     <h2>Popular artists</h2>
+
     <div class="singer">
-   
-      <span><img src="Screenshot 2024-04-11 170052.png" alt="">
+      <span class="sing-pritam"><img src="Screenshot 2024-04-11 170052.png" alt="">
+        <div id="playvid" class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Pritam</h4>
         <p>Artist</p>
-     <div class="play-btn">
-      
-     </div>
-      </span> 
+      </span>
       <span><img src="Screenshot 2024-04-11 170117.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Arijit Singh</h4>
         <p>Artist</p>
       </span>
 
       <span> <img src="Screenshot 2024-04-11 170138.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>A.R Rahman</h4>
         <p>Artist</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 170203.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Vishal Mishra</h4>
         <p>Artist</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 170219.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Anirudh Ravichander</h4>
         <p>Artist</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 170235.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Vishal-Shekhar</h4>
         <p>Artist</p>
       </span>
@@ -107,29 +124,47 @@
     <h2>Popular Albums</h2>
     <div class="album">
 
-      <span><img src="Screenshot 2024-04-11 182444.png" alt="">
+      <span class="sing-album"><img src="Screenshot 2024-04-11 182444.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Animal</h4>
         <p>Manan Bhardawaj,Vishal Mishra,Jaani</p>
       </span>
 
       <span> <img src="Screenshot 2024-04-11 182517.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Still Rollin</h4>
         <p>Shubh</p>
       </span>
 
       <span> <img src="Screenshot 2024-04-11 182541.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Moosetape</h4>
         <p>Sidhu Moose Wala</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 181714.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Ghost</h4>
         <p>Badshah</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 181735.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Ek Tha Raja</h4>
         <p>Diljit Dosanjh</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 182607.png" alt="">
+        <div class="play-btn">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Making Memories</h4>
         <p>Mithoon,Ankit Tiwari,Jeet Gannguli</p>
       </span>
@@ -141,28 +176,46 @@
     <div class="radio">
 
       <span><img src="Screenshot 2024-04-11 184353.png" alt="">
+        <div class="play-btn3">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Arijit Singh Radio</h4>
         <p>With Neha Kakkar,Pritam,KK and more</p>
       </span>
 
       <span> <img src="Screenshot 2024-04-11 184503.png" alt="">
+        <div class="play-btn3">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Diljit Dosanjh Radio</h4>
         <p>With Garry Sandhu,Ranjit Bawa,Amrinder...</p>
       </span>
 
       <span> <img src="Screenshot 2024-04-11 184626.png" alt="">
+        <div class="play-btn3">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Kumar Sanu Radio</h4>
         <p>With Udit Narayan,Alka Yagnik,Anuradha...</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 184652.png" alt="">
+        <div class="play-btn3">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Sidhu Moose Wala...</h4>
         <p>With Mohit Chouhan,Ankit Tiwari,Javed Ali...</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 184718.png" alt="">
+        <div class="play-btn3">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>KK Radio</h4>
         <p>With Ammy Virk,Amrit Maan,Karan Aujla and...</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 184741.png" alt="">
+        <div class="play-btn3">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Popular Radio</h4>
         <p>With Mano,llaiyaraja,S.Janaki and more</p>
       </span>
@@ -174,28 +227,46 @@
     <div class="featured">
 
       <span><img src="Screenshot 2024-04-11 185756.png" alt="">
+        <div class="play-btn4">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Top Song Global</h4>
         <p>Your weekly update of the most played track...</p>
       </span>
 
       <span> <img src="Screenshot 2024-04-11 185821.png" alt="">
+        <div class="play-btn4">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Top 50-USA</h4>
         <p>Your weekly update of the most played track...</p>
       </span>
 
       <span> <img src="Screenshot 2024-04-11 185840.png" alt="">
+        <div class="play-btn4">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Top 50-Global</h4>
         <p>Your weekly update of the most played track...</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 185858.png" alt="">
+        <div class="play-btn4">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Top 50-USA </h4>
         <p>Your weekly update of the most played track...</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 185922.png" alt="">
+        <div class="play-btn4">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Viral 50-Global</h4>
         <p>Your weekly update of the most played track...</p>
       </span>
       <span> <img src="Screenshot 2024-04-11 185957.png" alt="">
+        <div class="play-btn4">
+          <i class="fa-solid fa-play" style="color: #000000;"></i>
+        </div>
         <h4>Viral 50-USA</h4>
         <p>Your weekly update of the most played track...</p>
       </span>
@@ -205,12 +276,17 @@
     </div>
     <footer>
       <div class="footer2">
-       
+
         <div class="names">
           <a href="faq">Company</a>
           <a href="faq">Communities</a>
           <a href="faq">Useful links</a>
           <a href="faq">Spotify Free</a>
+          <div class="social-media">
+            <i class="fa-brands fa-instagram" style="color: #fafcff;"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+          </div>
         </div>
         <div class="footer-item">
           <a href="faq">About</a>
@@ -243,11 +319,11 @@
           <a href="faq"></a>
           <a href="faq">Spotify Free</a>
         </div>
-        <div class="social_media">
-          <a href="www.instagram.com"><img src="icons8-instagram.svg" alt=""></a>
-          <a href="twitter.com"></a><img src="icons8-twitterx-50.png" alt="">
-          <a href="www.facebook.com"></a><img width="30px" src="icon-media-social-facebook-free-vector.jpg" alt="">
-        </div> 
+        <!-- <div class="footer-item">
+          <i class="fa-brands fa-instagram" style="color: #fafcff;"></i>
+          <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+        </div> -->
       </div>
     </footer>
   </div>
